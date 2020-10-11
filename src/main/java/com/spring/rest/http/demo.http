@@ -1,1 +1,11 @@
+### getStudents()
+GET http://localhost:8080/api/students
+Accept: application/json
+
+### getStudentId(1)
+GET http://localhost:8080/api/students/1
+Accept: application/json
+
+### home()
 GET http://localhost:8080/hello
+Accept: text/json
